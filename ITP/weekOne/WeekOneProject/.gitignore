@@ -3,6 +3,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+!**/ITP/weekOne/WeekOneProject/out/
+!**/ITP/weekOne/WeekOneProject/.idea/
+!**/ITP/weekOne/WeekOneProject/External Libraries/
+!**/ITP/weekOne/WeekOneProject/WeekOneProject.iml/
 
 ### Eclipse ###
 .apt_generated

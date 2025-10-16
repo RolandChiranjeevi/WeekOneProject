@@ -1,9 +1,9 @@
 package ObjectOrientedProgramming;
 
 public class CarFuel {
-    double fuelLevel;
-    double tankCapacity;
-    double fuelConsumption;
+   private double fuelLevel;
+    private double tankCapacity;
+    private double fuelConsumption;
 
  public CarFuel(double fuelLevel, double tankCapacity, double fuelConsumption) {
      this.fuelLevel = fuelLevel;
@@ -29,7 +29,7 @@ public double howLongDrive() {
 public double getTankCapacity() {
      return fuelLevel/tankCapacity;
 }
-    public double howLongDrive2() {
+public double howLongDrive2() {
         return fuelConsumption;
     }
 }

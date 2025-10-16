@@ -6,7 +6,7 @@ public class BankAccountMain {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
-        BankAccount myAccount = new  BankAccount(0);
+        BankAccount myAccount = new  BankAccount(500);
 
         System.out.println("Your balance is: "+myAccount.getSaldo());
         System.out.print("How much money would you like to deposit? ");

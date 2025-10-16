@@ -11,11 +11,6 @@ public BankAccount(double saldo) {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
-
-
     public void deposit(double amount) {
     saldo += amount;
 

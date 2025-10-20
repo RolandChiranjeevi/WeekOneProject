@@ -18,7 +18,7 @@ public BankAccount(double saldo) {
     }
 
     public boolean withdrawMoney(double amount) {
-    if (saldo >= amount) {
+    if (this.saldo >= amount) {
         this.saldo -=amount;
         return true;
     }

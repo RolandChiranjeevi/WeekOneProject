@@ -1,17 +1,17 @@
 package ObjectOrientedProgramming;
 
 public class HelloWorldEtt {
-    private String vahid;
+    private String name;
 
-    public HelloWorldEtt(String vahid) {
-        this.vahid = vahid;
+    public HelloWorldEtt(String name) {
+        this.name = name;
     }
 
-    public String getVahid() {
-        return vahid;
+    public String getName() {
+        return name;
     }
 
-    public void setVahid(String vahid) {
-        this.vahid += vahid;
+    public void setName(String name) {
+        this.name += name;
     }
 }

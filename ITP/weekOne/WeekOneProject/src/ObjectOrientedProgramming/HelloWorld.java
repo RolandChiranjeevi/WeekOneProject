@@ -7,12 +7,12 @@ public class HelloWorld {
        Scanner myScanner = new Scanner(System.in);
        // HelloWorldEtt vahid = new HelloWorldEtt();
         HelloWorldEtt david = new HelloWorldEtt("Hej ");
-        System.out.print("Pick a number: ");
-        String number = myScanner.nextLine();
-        david.setVahid(number);
+        System.out.print("Enter your name: ");
+        String name = myScanner.nextLine();
+        david.setName(name);
 
 
-        System.out.println(david.getVahid());
+        System.out.println(david.getName());
 
     }
 }

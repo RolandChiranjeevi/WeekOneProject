@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package WeekThreeThings;
 
 import java.util.Scanner;
 

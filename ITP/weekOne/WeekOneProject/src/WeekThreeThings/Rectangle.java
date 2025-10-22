@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package WeekThreeThings;
 
 public class Rectangle {
     private double numberOne,numberTwo;

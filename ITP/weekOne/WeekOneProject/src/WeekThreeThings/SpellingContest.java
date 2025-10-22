@@ -7,13 +7,13 @@ public class SpellingContest {
         Scanner myScanner = new Scanner(System.in);
         System.out.println(Spelling.getFirstQuestion());
         System.out.print("Type in your answer: ");
-        String firstAnswer = myScanner.nextLine();
+        String firstAnswer = myScanner.nextLine().toLowerCase();
         System.out.println(Spelling.getSecondQuestion());
         System.out.print("Type in your answer: ");
-        String secondAnswer = myScanner.nextLine();
+        String secondAnswer = myScanner.nextLine().toLowerCase();
         System.out.println(Spelling.getThirdQuestion());
         System.out.print("Type in your answer: ");
-        String thirdAnswer = myScanner.nextLine();
+        String thirdAnswer = myScanner.nextLine().toLowerCase();
         System.out.println("");
         System.out.println("---------------------------------");
         System.out.println("");
